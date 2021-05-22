@@ -1,54 +1,28 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# gatsby loadable components example
 
-## 🚀 Quick start
+Loadable components implementation to the gatsby default setup.
 
-1.  **Create a Gatsby site.**
+- [loadable components](https://github.com/gregberge/loadable-components)
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## How to run
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+```sh
+npm ci
+npm run build
+npm run serve
+```
 
-2.  **Start developing.**
+Open http://localhost:9000/
 
-    Navigate into your new site’s directory and start it up.
+### When JavaScript is enabled
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+![](_doc/js-on.png)
 
-3.  **Open the code and start customizing!**
+### When JavaScript is disabled
 
-    Your site is now running at http://localhost:8000!
+![](_doc/js-off.png)
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+## Reference
 
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+- [Better Performance using Dynamic Code Splitting in Gatsby with loadable-components - DEV Community](https://dev.to/itmayziii/better-performance-using-dynamic-code-splitting-in-gatsby-with-loadable-components-6am)
+- [Using Client-Side Only Packages | Gatsby](https://www.gatsbyjs.com/docs/using-client-side-only-packages/)
