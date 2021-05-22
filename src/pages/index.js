@@ -1,6 +1,10 @@
 import * as React from "react";
+import loadable from "@loadable/component";
 import StaticComponent from "../components/static-component";
-import DynamicComponent from "../components/dynamic-component";
+
+const DynamicComponent = loadable(() =>
+  import("../components/dynamic-component")
+);
 
 const IndexPage = () => {
   return (
